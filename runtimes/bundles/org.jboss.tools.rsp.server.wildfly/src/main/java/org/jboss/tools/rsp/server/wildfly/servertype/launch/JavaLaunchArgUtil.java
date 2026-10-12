@@ -13,13 +13,13 @@ package org.jboss.tools.rsp.server.wildfly.servertype.launch;
 import org.jboss.tools.rsp.eclipse.jdt.launching.IVMInstall;
 import org.jboss.tools.rsp.server.wildfly.servertype.capabilities.util.JavaUtils;
 
-public class Java9LaunchArgUtil {
+public class JavaLaunchArgUtil {
 
-	private Java9LaunchArgUtil() {
+	private JavaLaunchArgUtil() {
 		// prevent instantiation
 	}
 	
-	public static String getJava9VMArgs(IVMInstall vm) {
+	public static String getJavaVMArgs(IVMInstall vm) {
 		String suffix = "";
 		if( vm == null )
 			return suffix;
